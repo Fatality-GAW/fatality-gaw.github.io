@@ -6,7 +6,7 @@
 		<style>
 		/* GENERAL SETTINGS */
 			body {
-				background-color: #000000;
+				background-color:#000000;
 				font-family: Arial, sans-serif, Segoe UI Emoji, Noto Color Emoji, Twemoji;
 				margin: 0;
 				padding: 0;
@@ -40,14 +40,14 @@
 			}
 
 		/* DEFAULT COLUMN COLORS */
-			.number_col {
-				background-color: #000000;
+			.n_c {
+				background-color:#000000;
 				top: 0;
 				text-align: right;
 				vertical-align: top;
 			}
 
-			.detail_col {
+			.d_c {
 				font-weight: bold;
 				font-size: xx-small;
 				padding: 1em;
@@ -58,71 +58,71 @@
 				white-space: nowrap;
 			}
 
-			.title_col {
+			.t_c {
 				padding: 1em;
 				padding-left: 5%;
 				padding-right: 5%;
 			}
 
-			.title_col a {
+			.t_c a {
 				text-decoration: none;
 				font-weight: bold;
 			}
 
 		/* ROW HOVERING COLORS */
 			/* NUMBER COLUMN */
-			.table_row:hover td:first-child {
+			.t_r:hover td:first-child {
 				color: #ffffff;
 				text-shadow: 0px 0px 10px #000000;
 			}
 
 			/* DETAIL COLUMN */
 					/* NAME COLOR */
-			.table_row:hover td:nth-child(2) span {
+			.t_r:hover td:nth-child(2) span {
 				color: #77c5ff;
 				text-shadow: 0px 0px 10px #000000;
 			}
 					/* TIME COLOR */
-			.table_row:hover td:nth-child(2) {
+			.t_r:hover td:nth-child(2) {
 				color: #ffffff;
 				text-shadow: 0px 0px 10px #000000;
 			}
 
 			/* TITLE COLUMN */
-			.table_row:hover td:nth-child(3) a {
+			.t_r:hover td:nth-child(3) a {
 				color: #dc4848;
 				text-shadow: 0px 0px 10px #000000;
 			}
 
 		/* TRANSITION TIMES */
 			/* NUMBER & TIME */
-			.table_row td {
+			.t_r td {
 				transition: all 1.0s;
 			}
 			/* NAME & TITLE */
-			.table_row span,
-			.table_row a {
+			.t_r span,
+			.t_r a {
 				transition: all 0.1s;
 			}
 
 		/* TEXT SETTINGS FOR.. */
 			/* ..NUMBER COLUMN */
-			.table_row td:first-child {
+			.t_r td:first-child {
 				color: #4d4848;
 			}
 
 			/* ..DETAIL COLUMN.. */
 				/* ..AUTHOR */
-			.table_row td:nth-child(2) span {
+			.t_r td:nth-child(2) span {
 				color: #305068;
 			}
 				/* ..TIME */
-			.table_row td:nth-child(2) {
+			.t_r td:nth-child(2) {
 				color: #4d4848;
 			}
 
 			/* ..TITLE COLUMN */
-			.table_row td:nth-child(3) a {
+			.t_r td:nth-child(3) a {
 				color: #4ca1e0;
 			}
 
@@ -163,6 +163,14 @@
 				color:#346c91;
 			}
 		</style>
+		</script>
+			function oc(id) {
+				if (event.target.tagName === 'A') return true;
+				const postId = id.dataset.post;
+				const url = 'https://GreatAwakening.win/p/${postId}/x/c/';
+				window.open(url, '_blank', 'noopener noreferrer');
+			}
+		</script>
 	</head>
 	<body>
 		<div id="left-div"><span><a href="2025.06.GREATAWAKENING.WIN.STICKIES.RELOADED.html" onmouseover="this.style.color='#dc4848'" onmouseout="this.style.color='#346c91'">◄</a></span></div>
@@ -170,7 +178,39 @@
 		<h1><a href="https://GreatAwakening.win" target="_blank">🔥 2025.07 GREATAWAKENING.WIN STICKIES RELOADING.. 🔥</a></h1>
 		<table>
 			<tbody>
-				<tr class="table_row" id="1" style="background-color: #111111;" onclick="if (event.target.tagName == 'A') return true; window.open('https://GreatAwakening.win/p/19BZkuGj48/x/c/','_blank','noopener noreferrer');" ><td class="number_col">1</td><td class="detail_col"><span>thephantom1979</span> @<br>Mon Jun 30 20:27:50 GMT 2025</td><td class="title_col"><a href="https://GreatAwakening.win/p/19BZkuGj48/x/c/" target="_blank">The Hidden Dangers of Technology for Children (DID BIG TECH HARM OUR KIDS)</a></td></tr>
+				<tr class="t_r" id="1" style="background-color:#111111" onclick="oc(19BZkuGj48)"><td class="n_c">1</td><td class="d_c"><span>thephantom1979</span> @<br>Mon Jun 30 20:27:50 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkuGj48/x/c/" target="_blank">The Hidden Dangers of Technology for Children (DID BIG TECH HARM OUR KIDS)</a></td></tr>
+				<tr class="t_r" id="2" style="background-color:#4a2422" onclick="oc(19BZkvOIZZ)"><td class="n_c">2</td><td class="d_c"><span>bubble_bursts</span> @<br>Tue Jul 01 03:05:04 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkvOIZZ/x/c/" target="_blank">General Chat for Tue, Jul 01</a></td></tr>
+				<tr class="t_r" id="3" style="background-color:#4a2422" onclick="oc(19BZgMi1bw)"><td class="n_c">3</td><td class="d_c"><span>bubble_bursts</span> @<br>Mon Jun 30 03:05:04 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZgMi1bw/x/c/" target="_blank">General Chat for Mon, Jun 30</a></td></tr>
+				<tr class="t_r" id="4" style="background-color:#202020" onclick="oc(19BZkt9QTQ)"><td class="n_c">4</td><td class="d_c"><span>purkiss80</span> @<br>Mon Jun 30 15:59:58 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkt9QTQ/x/c/" target="_blank">OK, these are The four demands from the United States for South Africa to normalize bilateral relations..... The SA President has basically said FU, we will carry on as before, tripling down....</a></td></tr>
+				<tr class="t_r" id="5" style="background-color:#111111" onclick="oc(19BZkt7VSv)"><td class="n_c">5</td><td class="d_c"><span>Space_Monkey</span> @<br>Mon Jun 30 05:22:09 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkt7VSv/x/c/" target="_blank">The Sacred Seventeen: Decoding the Divine Mathematics of Human Liberation</a></td></tr>
+				<tr class="t_r" id="6" style="background-color:#202020" onclick="oc(19BZkt9hn4)"><td class="n_c">6</td><td class="d_c"><span>lovecymru</span> @<br>Mon Jun 30 16:54:57 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkt9hn4/x/c/" target="_blank">The White House: 11 HUGE SUPREME COURT VICTORIES 🇺🇸</a></td></tr>
+				<tr class="t_r" id="7" style="background-color:#111111" onclick="oc(19BZkt9hWX)"><td class="n_c">7</td><td class="d_c"><span>Joys1Daughter</span> @<br>Mon Jun 30 16:35:35 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkt9hWX/x/c/" target="_blank">Q Reminded Us Of the Battle For Freedom In The Powerful Words Of Thomas Paine. Good To Remember Every Day. One Of Today's Deltas</a></td></tr>
+				<tr class="t_r" id="8" style="background-color:#202020" onclick="oc(19BZkuGjGY)"><td class="n_c">8</td><td class="d_c"><span>LogicCircuits</span> @<br>Mon Jun 30 20:44:48 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkuGjGY/x/c/" target="_blank">U.S. Senate rejects measure to kick illegal aliens off Medicaid, 56-44</a></td></tr>
+				<tr class="t_r" id="9" style="background-color:#111111" onclick="oc(19BZkuFuFk)"><td class="n_c">9</td><td class="d_c"><span>ChiefWoody</span> @<br>Mon Jun 30 18:53:54 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkuFuFk/x/c/" target="_blank">DOJ Charges 324 in Largest Healthcare Fraud Takedown in U.S. History — $14.6 BILLION Scheme Involved 96 Doctors, Nurses, and Pharmacists Targeting Medicare and Medicaid</a></td></tr>
+				<tr class="t_r" id="10" style="background-color:#202020" onclick="oc(19BZkuI6FA)"><td class="n_c">10</td><td class="d_c"><span>AlgaeBanquet</span> @<br>Tue Jul 01 01:01:08 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkuI6FA/x/c/" target="_blank">"The Digital Coup. How DOGE, Palantir, and Trump Engineered the Silent Takedown of the Deep State" - An interesting perspective by Observing Consciousness on X.</a></td></tr>
+				<tr class="t_r" id="11" style="background-color:#111111" onclick="oc(19BZkvOqnp)"><td class="n_c">11</td><td class="d_c"><span>Tetartos_Ippeas</span> @<br>Tue Jul 01 05:39:28 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkvOqnp/x/c/" target="_blank">JUST IN: Senate Rejects Democrat Amendment to Continue Planned Parenthood Funding – RINOs Susan Collins and Lisa Murkowski Side with Democrats to Fund Abortions!</a></td></tr>
+				<tr class="t_r" id="12" style="background-color:#202020" onclick="oc(19BZkvOqrw)"><td class="n_c">12</td><td class="d_c"><span>brain_dead</span> @<br>Tue Jul 01 05:45:38 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkvOqrw/x/c/" target="_blank">Cato Institute VP Dismisses Mass Fentanyl Deaths: Voluntary Overdoses ‘Are Not Homicides.' I guess according to them, kids who decided to take drugs are voluntarily committing suicide.</a></td></tr>
+				<tr class="t_r" id="13" style="background-color:#111111" onclick="oc(19BZkvPwjZ)"><td class="n_c">13</td><td class="d_c"><span>brain_dead</span> @<br>Tue Jul 01 11:58:00 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkvPwjZ/x/c/" target="_blank">Benny Johnson just arrived at Alligator Alcatraz.</a></td></tr>
+				<tr class="t_r" id="14" style="background-color:#202020" onclick="oc(19BZkvQUtf)"><td class="n_c">14</td><td class="d_c"><span>Joys1Daughter</span> @<br>Tue Jul 01 13:37:05 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkvQUtf/x/c/" target="_blank">🚨 LIVE President Trump visits Florida’s new “Alligator Alcatraz” detention facility for illegal immigrants in Ochopee, Florida at 10 ET Then He Participated in a Roundtable Discussion at Dade Airport. 🚨</a></td></tr>
+				<tr class="t_r" id="15" style="background-color:#111111" onclick="oc(19BZkvQUtd)"><td class="n_c">15</td><td class="d_c"><span>PowderRoomPolitics</span> @<br>Tue Jul 01 13:35:34 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkvQUtd/x/c/" target="_blank">🚨🥶Act Blue, (DNC's Fundraising Platform) Busted, Now They're Cornered As Well, With Nowhere To Run!🥶🚨</a></td></tr>
+				<tr class="t_r" id="16" style="background-color:#202020" onclick="oc(19BZkvQlc1)"><td class="n_c">16</td><td class="d_c"><span>purkiss80</span> @<br>Tue Jul 01 14:05:11 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkvQlc1/x/c/" target="_blank">Liz Crokin - "General Flynn says President Trump pays attention to digital soldiers and social media. He says we are involved in 5th generation warfare and when we come together in that world we can win these battles."</a></td></tr>
+				<tr class="t_r" id="17" style="background-color:#111111" onclick="oc(19BZkwXnDp)"><td class="n_c">17</td><td class="d_c"><span>catsfive</span> @<br>Tue Jul 01 18:13:17 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkwXnDp/x/c/" target="_blank">Guess what happens when a Federal reserve bank dissolves or goes into liquidation… It becomes the property of the United States.</a></td></tr>
+				<tr class="t_r" id="18" style="background-color:#202020" onclick="oc(19BZkwXFK8)"><td class="n_c">18</td><td class="d_c"><span>ashlanddog</span> @<br>Tue Jul 01 16:52:14 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkwXFK8/x/c/" target="_blank">President Trump Delivers His Hardest Hit Yet on Elon Musk</a></td></tr>
+				<tr class="t_r" id="19" style="background-color:#111111" onclick="oc(19BZkwXVqD)"><td class="n_c">19</td><td class="d_c"><span>purkiss80</span> @<br>Tue Jul 01 17:04:18 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkwXVqD/x/c/" target="_blank">"President Trump was just why Alejandro Mayorkas has not been arrested yet… Trump basically responded by asking if Mayorkas received a pardon - and when he found out he was not pardoned, he told Kristi Noem to “look into it” 👀"</a></td></tr>
+				<tr class="t_r" id="20" style="background-color:#202020" onclick="oc(19BZkwXWNA)"><td class="n_c">20</td><td class="d_c"><span>BatteryBaron</span> @<br>Tue Jul 01 17:39:54 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkwXWNA/x/c/" target="_blank">Senate passes Big Beautiful Bill (Vance casts tie breaking vote)</a></td></tr>
+				<tr class="t_r" id="21" style="background-color:#111111" onclick="oc(19BZkwY4P7)"><td class="n_c">21</td><td class="d_c"><span>Joys1Daughter</span> @<br>Tue Jul 01 19:06:53 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkwY4P7/x/c/" target="_blank">This is HUGE. ⚡️HOROWITZ, who was mentioned prominently in the Q posts, as a shadow actor overseeing ongoing investigations (sealed indictments), was just appointed to lead the Office of Inspector General (OIG) FOR THE FEDERAL RESERVE. “The inspector general’s jurisdiction</a></td></tr>
+				<tr class="t_r" id="22" style="background-color:#202020" onclick="oc(19BZkwWy4e)"><td class="n_c">22</td><td class="d_c"><span>Joys1Daughter</span> @<br>Tue Jul 01 16:05:25 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkwWy4e/x/c/" target="_blank">BBB PASSES SENATE V.P. VANCE BREAKS TIE!</a></td></tr>
+				<tr class="t_r" id="23" style="background-color:#111111" onclick="oc(19BZkwXnM6)"><td class="n_c">23</td><td class="d_c"><span>Joys1Daughter</span> @<br>Tue Jul 01 18:23:56 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkwXnM6/x/c/" target="_blank">Once Again, Dan Tells Us..."President @realDonaldTrump departs Alligator Alcatraz in Florida as a storm quickly approaches—Nobody better than the @USAirForce taking Air Force One🛫in a torrential downpour…en route back to Washington, DC…." ⚡⛈️🌩️⛈️⚡</a></td></tr>
+				<tr class="t_r" id="24" style="background-color:#202020" onclick="oc(19BZkwY44V)"><td class="n_c">24</td><td class="d_c"><span>MuckeyDuck</span> @<br>Tue Jul 01 18:43:13 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkwY44V/x/c/" target="_blank">Key Differences Between House and Senate Versions of the One Big Beautiful Bill | For Your EDIFICATION</a></td></tr>
+				<tr class="t_r" id="25" style="background-color:#111111" onclick="oc(19BZkwY48X)"><td class="n_c">25</td><td class="d_c"><span>Joys1Daughter</span> @<br>Tue Jul 01 18:45:09 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkwY48X/x/c/" target="_blank">What Storm Mr President? You’ll find out. BQQM</a></td></tr>
+				<tr class="t_r" id="26" style="background-color:#202020" onclick="oc(19BZkwYtDW)"><td class="n_c">26</td><td class="d_c"><span>ILoveIvermectin</span> @<br>Tue Jul 01 21:07:09 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkwYtDW/x/c/" target="_blank">Today, FDA provided important updates on the risk of myocarditis after receiving an mRNA COVID-19 vaccine, noting the risk is higher in young men.</a></td></tr>
+				<tr class="t_r" id="27" style="background-color:#111111" onclick="oc(19BZkxf5DJ)"><td class="n_c">27</td><td class="d_c"><span>actlikewewon</span> @<br>Tue Jul 01 22:23:50 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkxf5DJ/x/c/" target="_blank">UPenn Surrenders to Trump in Big Win for Women: Will Strip Trans Swimmer Lia Thomas of ALL Records, Award Victories to Females Impacted By His Inclusion, and Much More</a></td></tr>
+				<tr class="t_r" id="28" style="background-color:#4a2422" onclick="oc(19BZkxgT3f)"><td class="n_c">28</td><td class="d_c"><span>bubble_bursts</span> @<br>Wed Jul 02 03:05:04 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkxgT3f/x/c/" target="_blank">General Chat for Wed, Jul 02</a></td></tr>
+				<tr class="t_r" id="29" style="background-color:#2b2b46" onclick="oc(19BZkxgjlz)"><td class="n_c">29</td><td class="d_c"><span>ashlanddog</span> @<br>Wed Jul 02 03:36:37 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkxgjlz/x/c/" target="_blank">Unleashed 7.1.25</a></td></tr>
+				<tr class="t_r" id="30" style="background-color:#202020" onclick="oc(19BZkxhI4T)"><td class="n_c">30</td><td class="d_c"><span>brain_dead</span> @<br>Wed Jul 02 06:28:54 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkxhI4T/x/c/" target="_blank">Whistleblower EMAILS CONFIRM: A criminal conspiracy between the Biden White House, the FBI Washington Field Office, prosecutors from the U.S. Attorney’s Office – Washington D.C., and Special Prostitute Jack Smith to plan, approve, and execute ‘Arctic Frost’, with the intent to frame, arrest, prosecu</a></td></tr>
+				<tr class="t_r" id="31" style="background-color:#111111" onclick="oc(19BZkxhZ3Q)"><td class="n_c">31</td><td class="d_c"><span>BonanzaPilot</span> @<br>Wed Jul 02 08:05:21 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkxhZ3Q/x/c/" target="_blank">Elon and Trump feud. ChatGPT’s take if you push a little.</a></td></tr>
+				<tr class="t_r" id="32" style="background-color:#202020" onclick="oc(19BZkxhHjr)"><td class="n_c">32</td><td class="d_c"><span>brain_dead</span> @<br>Wed Jul 02 05:32:58 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkxhHjr/x/c/" target="_blank">Secretary Rubio announced USAID has OFFICIALLY ceased operations.</a></td></tr>
+				<tr class="t_r" id="33" style="background-color:#111111" onclick="oc(19BZkynUKk)"><td class="n_c">33</td><td class="d_c"><span>Christine_grab</span> @<br>Wed Jul 02 10:41:38 GMT 2025</td><td class="t_c"><a href="https://GreatAwakening.win/p/19BZkynUKk/x/c/" target="_blank">Inside the nation's largest child recovery operation: What happens after 60 missing kids found?</a></td></tr>
 			</tbody>
 		</table>
 	</body>
